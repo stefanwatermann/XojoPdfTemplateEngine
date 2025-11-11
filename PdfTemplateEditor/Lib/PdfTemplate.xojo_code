@@ -52,7 +52,7 @@
 		The template defines what to be rendered into the PDF document at what positon.
 		
 		
-		Know limitations:
+		Known limitations:
 		- Size of PDF page is fixed to DIN A4
 		- Image aspect ratio may be rendered wrong 
 	#tag EndNote
