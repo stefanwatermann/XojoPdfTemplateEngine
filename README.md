@@ -1,5 +1,4 @@
 # XojoPdfTemplateEngine (Lib/PdfTemplate)
-(c) 2025 by Stefan Watermann, Watermann IT Germany
 
 Classes to render PDF files from a text based template file (.ptf). The template defines what to be rendered into the PDF document at what position.
 
@@ -60,4 +59,4 @@ Rendered PDF file
 
 A simple example Web Project to demonstrate how to render a PDF file based on a .ptf template and using variables.
 
-
+(c) 2025 by Stefan Watermann, Watermann IT Germany
