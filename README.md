@@ -2,7 +2,7 @@
 
 Classes to render PDF files from a text based template file (.ptf). The template defines what to be rendered into the PDF document at what position.
 
-This project is an approach to separate the design of a PDF file from code and data using XOJO instead of writing it completely in code.
+This project is an approach to separate the design of a PDF file from code and data instead of writing it completely in XOJO code.
 
 Known limitations:
 - Size of PDF page is fixed to DIN A4
