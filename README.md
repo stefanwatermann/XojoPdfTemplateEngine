@@ -59,4 +59,21 @@ Rendered PDF file
 
 A simple example Web Project to demonstrate how to render a PDF file based on a .ptf template and using variables.
 
+Use a function like the below to render a PDF document based on a template file using parameters that will be replaced automatically.
+
+```basic
+Private Function CreateCustomerInvoice(params as dictionary) As PDFDocument
+  Using PdfTemplate
+  
+  Var pdfSvc As New PdfService
+  pdfSvc.Load(Self.PdfTemplateFolder.Child("customerinvoice.ptf"))
+  
+  Var helper As New PdfHelper
+  helper.CreateA4PdfDoc
+  helper.DrawElements(pdfSvc.CanvasElements, params)
+  
+  Return helper.PdfDoc
+End Function
+```
+
 (c) 2025 by Stefan Watermann, Watermann IT Germany
