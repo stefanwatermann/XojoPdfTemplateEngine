@@ -59,7 +59,7 @@ Rendered PDF file
 
 A simple example Web Project to demonstrate how to render a PDF file based on a .ptf template and using variables.
 
-Use a function like the below to render a PDF document based on a template file using parameters that will be replaced automatically.
+The project uses the function below to render a PDF document based on a template file using parameters that will be replaced automatically.
 
 ```basic
 Private Function CreateCustomerInvoice(params as dictionary) As PDFDocument
