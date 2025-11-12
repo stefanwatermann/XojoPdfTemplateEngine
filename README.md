@@ -10,7 +10,7 @@ Known limitations:
 - Aspect ratio of pictures may be rendered wrong
 
 Example of a .ptf file
-```
+```shell
 ### Raster-based PDF template ###
 # One command per line, # indicated comment.
 
