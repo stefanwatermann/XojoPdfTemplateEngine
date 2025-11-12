@@ -2,11 +2,12 @@
 
 Classes to render PDF files from a text based template file (.ptf). The template defines what to be rendered into the PDF document at what position.
 
-This project is an approach to separate the design of a PDF file from code and data instead of writing it completely in XOJO code.
+This project is an approach to separate the design of a PDF file from code instead of writing it completely in XOJO code.
 
 Known limitations:
 - Size of PDF page is fixed to DIN A4
-- Image aspect ratio may be rendered wrong
+- Only one PDF page can be designed and generated
+- Aspect ratio of pictures may be rendered wrong
 
 Example of a .ptf file
 ```
@@ -38,7 +39,6 @@ Text:F0,26,243,,"Kind regards"
 Text:N0,26,71,,"%CustomerName"
 Line:20,240,180,1,&h00919191
 ```
-
 
 ## Project PdfTemplateEditor
 A visual editor to create and edit PDF template files (.ptf). A .ptf file is a simple text file containing instructions for the PdfTemplate engine how to render a PDF file.
